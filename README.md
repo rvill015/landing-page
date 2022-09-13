@@ -1,8 +1,8 @@
 # landing-page
 
-## assignment for the Odin Project
+## Assignment for the Odin Project
 
-### creating a webpage from a design
+### Creating a webpage from a design
 
 ### Instructions
 
