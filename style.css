@@ -1,8 +1,141 @@
-header {
+.header {
+    font-family: 'Roboto';
+    padding: 10px;
+}
 
+.nav {
+    display: flex;
+    padding: 8px;
+    align-items: center;
+    justify-content: space-between;
+    background: #1f2937;
+}
+
+.hero {
+    display: flex;
+    padding: 8px;
+    align-items: center;
+    justify-content: space-between;
+    background: #1f2937;
+}
+
+.logo {
+    display: flex;
+    font-size: 24px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+    list-style: none;
+}
+
+a {
+    color: #E5E7EB;
+    background: #1f2937;
+    font-size: 18px;
+    padding: 8px;
+    text-decoration: none;
 }
 
 body {
-    font-family:'roboto';
+    font-family:'Roboto';
 }
 
+.maintext {
+    display: flex;
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.secondary {
+    color: #E5E7EB;
+    background: #1f2937;
+    font-size: 18px;
+    padding: 8px;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+button {
+    background-color: #3882F6;
+    color:#F9FAF8;
+    font-weight: bold;
+    padding: 8px;
+    margin: 10px;
+    border: none;
+    border-radius: 4px;
+
+}
+
+.party {
+    padding: 8px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info {
+    text-align: center;
+    padding: 10px;
+    font-size: 36px;
+    font-weight: 900;
+    color:#1f2937;
+}
+
+.profiles {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    gap: 48px;
+    padding: 10px;
+}
+
+.profile img {
+    border: 5px solid #3882F6;
+    border-radius: 5%;
+    width: 200px;
+    height: 200px;
+}
+
+.quotes {
+    background-color: #E5E7EB;
+    padding: 100px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px 0px 40px 0px;
+}
+
+.quotes p {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+}
+
+.quotes .attribution {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.call {
+    background-color: #3882F6;
+    padding: 50px;
+    margin: 50px;
+    border: none;
+    border-radius: 32px;
+}
+
+.call p {
+    color:#F9FAF8
+}
