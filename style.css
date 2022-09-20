@@ -1,5 +1,4 @@
 .header {
-    font-family: 'Roboto';
     padding: 10px;
 }
 
@@ -44,6 +43,7 @@ a {
 
 body {
     font-family:'Roboto';
+    margin: 0;
 }
 
 .maintext {
@@ -66,7 +66,7 @@ img {
     height: auto;
 }
 
-button {
+.rsvp {
     background-color: #3882F6;
     color:#F9FAF8;
     font-weight: bold;
@@ -112,7 +112,6 @@ button {
     padding: 100px;
     align-items: center;
     justify-content: space-between;
-    margin: 40px 0px 40px 0px;
 }
 
 .quotes p {
@@ -129,13 +128,41 @@ button {
 }
 
 .call {
+    display: flex;
+    padding: 4em 8em;
     background-color: #3882F6;
-    padding: 50px;
-    margin: 50px;
-    border: none;
-    border-radius: 32px;
+    border-radius: 6px;
+    color:#F9FAF8;
+    margin: 100px;
 }
 
-.call p {
-    color:#F9FAF8
+.lefthand {
+    width: 64em;
+}
+
+.callmain {
+    font-weight: bold;
+    font-size: large;
+}
+
+.callsub {
+    font-weight: lighter;
+}
+
+.righthand {
+    justify-content: center;
+}
+
+.donate {
+    background: none;
+    border: 2px solid #F9FAF8;
+    width: 10em;
+    color:#F9FAF8;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+footer {
+    text-align: center;
+    color:#1f2937;
 }
